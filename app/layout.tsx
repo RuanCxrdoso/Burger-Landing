@@ -9,7 +9,7 @@ const barlowCondensed = Barlow_Condensed({
 });
 
 export const metadata: Metadata = {
-  title: "Burger Rei",
+  title: "BurgerBit",
   description: "The best burgers for awesome clients!",
 };
 
