@@ -3,7 +3,11 @@ import Link from "next/link"
 import { BiCycling, BiShoppingBag } from "react-icons/bi"
 import { HiBars3BottomRight } from "react-icons/hi2"
 
-export default function Nav() {
+interface NavProps {
+  openNav: () => void
+}
+
+export default function Nav({ openNav }: NavProps) {
   return (
     <header className="h-[12vh] bg-[#fff]">
       <div className="sm:w-[90%] w-[95%] mx-auto flex h-[100%] items-center justify-between">
@@ -52,7 +56,7 @@ export default function Nav() {
             <BiShoppingBag className="w-[1.3rem] h-[1.3rem] sm:w-[1.7rem] sm:h-[1.7rem]" />
           </button>
 
-          <HiBars3BottomRight className="lg:hidden w-[2rem] h-[2rem] text-black" />
+          <HiBars3BottomRight onClick={openNav} className="lg:hidden w-[2rem] h-[2rem] text-black" />
         </div>
       </div>
     </header>
