@@ -6,8 +6,13 @@ import Carousel from 'react-multi-carousel'
 import 'react-multi-carousel/lib/styles.css'
 
 const responsive = {
+  desktopUltra: {
+    breakpoint: { max: 3000, min: 1700 },
+    items: 5,
+    slidesToSlide: 1,
+  },
   desktop: {
-    breakpoint: { max: 3000, min: 1324 },
+    breakpoint: { max: 1700, min: 1324 },
     items: 4,
     slidesToSlide: 1,
   },
