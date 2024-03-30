@@ -20,19 +20,19 @@ export default function Nav({ openNav }: NavProps) {
         </div>
 
         <ul className="hidden lg:flex items-center space-x-10">
-          <li className="text-[20px] font-medium transition-all duration-300 hover:text-red-600">
+          <li className="text-[20px] font-medium transition-all duration-300 hover:text-[#F2A900]">
             <Link href="/">Home</Link>
           </li>
-          <li className="text-[20px] font-medium transition-all duration-300 hover:text-red-600">
+          <li className="text-[20px] font-medium transition-all duration-300 hover:text-[#F2A900]">
             <Link href="/">Shop</Link>
           </li>
-          <li className="text-[20px] font-medium transition-all duration-300 hover:text-red-600">
+          <li className="text-[20px] font-medium transition-all duration-300 hover:text-[#F2A900]">
             <Link href="/">Menu</Link>
           </li>
-          <li className="text-[20px] font-medium transition-all duration-300 hover:text-red-600">
+          <li className="text-[20px] font-medium transition-all duration-300 hover:text-[#F2A900]">
             <Link href="/">Blog</Link>
           </li>
-          <li className="text-[20px] font-medium transition-all duration-300 hover:text-red-600">
+          <li className="text-[20px] font-medium transition-all duration-300 hover:text-[#F2A900]">
             <Link href="/">Contact</Link>
           </li>
         </ul>
@@ -51,7 +51,7 @@ export default function Nav({ openNav }: NavProps) {
           </button>
 
           <button
-            className="sm:px-6 sm:py-3 px-4 py-2 transition-all duration-300 bg-orange-600 hover:bg-green-700 flex items-center rounded-md text-white"
+            className="sm:px-6 sm:py-3 px-4 py-2 transition-all duration-300 bg-[#f2a900] hover:bg-green-700 flex items-center rounded-md text-white"
           >
             <BiShoppingBag className="w-[1.3rem] h-[1.3rem] sm:w-[1.7rem] sm:h-[1.7rem]" />
           </button>
