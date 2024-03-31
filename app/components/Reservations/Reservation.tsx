@@ -3,10 +3,10 @@ import ReservationForm from "./ReservationForm/ReservationForm"
 
 export default function Reservation() {
   return (
-    <div className="relative pt-[5rem] mt-[2rem] pb-[5rem] mb-[3rem] bg-[url('/images/bg-black.jpg')] bg-no-repeat bg-cover w-full h-full">
+    <div className="relative pt-[5rem] mt-[2rem] pb-[5rem] mb-[3rem] bg-[url('/images/bg-black.jpg')] bg-no-repeat bg-cover w-full h-full -skew-y-6 md:-skew-y-3">
       <div className="absolute inset-0 bg-[#000000a6]" />
 
-      <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-[3rem] w-[80%] mx-auto mt-[4rem] mb-[4rem] relative">
+      <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-[3rem] w-[80%] mx-auto mt-[4rem] mb-[4rem] relative skew-y-6 md:skew-y-3">
         <div>
           <h1 className="text-[30px] md:text-[40px] lg:text-[50px] uppercase text-white md:leading-[4rem] leading-[3rem] font-bold">
             DO YOU HAVE ANY DINNER PLAN TODAY?
@@ -29,7 +29,7 @@ export default function Reservation() {
               </p>
 
               <p className="font-semibold text-[#F2A900] text-[30px]">
-                +71 9 9999 9999
+                +71 9 9999-9999
               </p>
             </div>
           </div>

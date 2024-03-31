@@ -28,7 +28,7 @@ export default function Feature() {
         </div>
 
         <div>
-          <div className="p-6 hover:bg-white rounded-lg transition-all duration-300 translate-y-[3rem]">
+          <div className="p-6 hover:bg-white rounded-lg transition-all duration-300 md:translate-y-24">
             <Image src={img2}  alt='' className='rounded-3xl' />
 
             <h1 className='text-center font-semibold text-[1.5rem] mt-[1.5rem]'>Your Opinion is Important</h1>
@@ -41,7 +41,7 @@ export default function Feature() {
         </div>
 
         <div>
-          <div className="p-6 hover:bg-white rounded-lg transition-all duration-300">
+          <div className="p-6 hover:bg-white rounded-lg transition-all duration-300 md:-translate-y-8">
             <Image src={img3}  alt='' className='rounded-3xl' />
 
             <h1 className='text-center font-semibold text-[1.5rem] mt-[1.5rem]'>Chicken Burgers</h1>
