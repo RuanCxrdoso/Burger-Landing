@@ -1,6 +1,4 @@
-import Image from "next/image"
-
-import ChefCard from "./ChefCard/ChefCards"
+import ChefCard from "./ChefCard/ChefCard"
 
 import chef1 from '@/public/images/t1.jpg'
 import chef2 from '@/public/images/t2.jpg'

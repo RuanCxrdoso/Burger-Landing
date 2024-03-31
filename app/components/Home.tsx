@@ -3,6 +3,7 @@ import Delivery from "./Delivery/Delivery"
 import Feature from "./Features/Feature"
 import Hero from "./Hero/Hero"
 import PopularBurger from "./PopularBurger/PopularBurger"
+import Reservation from "./Reservations/Reservation"
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <PopularBurger />
       <Delivery />
       <Chefs />
+      <Reservation />
     </div>
   )
 }
