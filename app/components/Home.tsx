@@ -28,7 +28,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="overflow-hidden">
+    <main className="overflow-hidden">
       <span id="home"></span>
       <Hero />
       <Feature />
@@ -37,6 +37,6 @@ export default function Home() {
       <Chefs />
       <Reservation />
       <Newsletter />
-    </div>
+    </main>
   )
 }

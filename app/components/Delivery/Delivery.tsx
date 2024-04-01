@@ -6,7 +6,7 @@ import { BsDoorOpen } from "react-icons/bs"
 
 export default function Delivery() {
   return(
-    <div className="pt-[8rem] pb-[3rem] delivery" id="delivery">
+    <section className="pt-[8rem] pb-[3rem] delivery" id="delivery">
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-[3rem]">
         <div data-aos="fade-right" data-aos-anchor=".delivery">
           <Image src={DeliveryImg} alt="Delivery" />
@@ -45,6 +45,6 @@ export default function Delivery() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }

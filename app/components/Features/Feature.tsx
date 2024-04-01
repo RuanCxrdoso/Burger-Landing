@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function Feature() {
   return (
-    <div className="pt-[5rem] pb-[3rem] about" id="about">
+    <section className="pt-[5rem] pb-[3rem] about" id="about">
       <h1 className="heading">
         Burgers made with
         <br />
@@ -53,6 +53,6 @@ export default function Feature() {
 
         </div>
       </div>
-    </div>
+    </section>
   )
 }
