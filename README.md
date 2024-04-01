@@ -1,36 +1,130 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<h1 align="center">
+  BurgerBit Landing Page 🍔
+</h1>
 
-## Getting Started
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/RuanCxrdoso/Burger-Landing">
 
-First, run the development server:
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/RuanCxrdoso/Burger-Landing">
+  
+  <a href="https://github.com/RuanCxrdoso/Burger-Landing/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/RuanCxrdoso/Burger-Landing">
+  </a>
+
+  <img alt="License" src="https://img.shields.io/badge/license-MIT-blue">
+
+  <a href="https://github.com/RuanCxrdoso/Burger-Landing/stargazers">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/RuanCxrdoso/Burger-Landing?style=social">
+  </a>
+</p>
+
+<p>
+  <img src="https://github.com/RuanCxrdoso/Burger-Landing/assets/86266893/cb54238a-9add-4d3a-9f1c-d21d61a8d878" alt="" />
+</p>
+
+<h4 align="center"> 
+	✅ Projeto finalizado ✅
+</h4>
+
+<p align="center">
+ <a href="#-sobre">Sobre</a> |
+ <a href="#-deploy">Deploy</a> |
+ <a href="#-como-utilizar">Como utilizar</a> | 
+ <a href="#-preview">Preview</a> |
+ <a href="#-tecnologias">Tecnologias</a> | 
+ <a href="#-autor">Autor</a> | 
+ <a href="#-licença">Licença</a>
+</p>
+
+
+## 💻 Sobre
+
+A landing page da **BurgerBit** é um projeto desenvolvido com `Next.js`, `React.js` e `TypeScript`, estilizado exclusivamente com `Tailwind CSS`. Coonta com seções de "Features", "About", "Popular Burgers", "Chefs", "Delivery" e "Newsletter", oferece uma experiência responsiva e dinâmica, destacando os produtos exclusivos da casa com imagens chamativas postas em um carrossel, com espaços para contar sobre o estabelecimento, apresentação dos chefs responsáveis pelos pedidos e uma seção para facilitar os pedidos de entrega.
+
+Vale ressaltar que este projeto foi desenvolvido no canal [WebDev Warriors](https://www.rocketseat.com.br/).
+
+---
+
+## 🔗 Deploy
+
+O deploy da aplicação pode ser acessado através da seguinte URL: https://rcxrdoso-burger-landing-page.vercel.app/
+
+---
+
+## 🚀 Como utilizar
+
+### Pré-requisitos
+
+Antes de realizar o download do projeto, é necessário instalar na sua máquina as seguintes ferramentas:
+
+* [Git](https://git-scm.com)
+* [NodeJS](https://nodejs.org/en/)
+* [NPM](https://www.npmjs.com/)
+
+Além disto é importante uma IDE para manipular o código, como o [VSCode](https://code.visualstudio.com/)
+
+### Clonando e Executando
+
+Passo a passo para clonar e executar a aplicação na sua máquina:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+# Clone este repositório
+$ git clone git@github.com:RuanCxrdoso/Burger-Landing.git
+
+# Acesse a pasta do projeto no terminal
+$ cd Burger-Landing
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+
+# A aplicação inciará em alguma porta disponível que poderá ser acessada pelo navegador
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Preview
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+<p align="center">
+  <img
+    src=""
+    alt=""
+    width="100%"
+  />
+</p>
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠 Tecnologias
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+As seguintes bibliotecas foram utilizadas no desenvolvimento do projeto:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- **[TypeScript](https://www.typescriptlang.org/)**
+- **[Next.js](https://nextjs.org/)**
+- **[React.js](https://react.dev/)**
+- **[Animate On Scroll](https://michalsnik.github.io/aos/)**
+- **[React Multi Carousel](https://www.npmjs.com/package/react-multi-carousel)**
+- **[Tailwind CSS](https://tailwindcss.com/)**
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+> Para mais detalhes das libs aplicadas no projeto cheque o arquivo [package.json](./package.json)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+
+## ✍ Autor
+
+<img alt="Perfil Github" title="Perfil Github" src="https://github.com/RuanCxrdoso.png" width="100px" />
+
+[![Linkedin Badge](https://img.shields.io/badge/-Ruan_Cardoso-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://https://www.linkedin.com/in/ruancardosolinkdin/)](https://www.linkedin.com/in/ruancardosolinkdin/)
+
+[![Gmail Badge](https://img.shields.io/badge/-cardosoruan2001@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:cardosoruan2001@gmail.com)](mailto:cardosoruan2001@gmail.com)
+
+---
+
+## 📝 Licença
+
+Este projeto está sob a licença MIT. Consulte o arquivo [LICENSE](./LICENSE) para mais informações
+
+Feito com 💛 por Ruan 👋🏽 [Entre em contato!](https://www.linkedin.com/in/ruancardosolinkdin/)
