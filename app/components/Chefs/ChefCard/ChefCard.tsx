@@ -5,11 +5,13 @@ interface ChefCardProps {
   name: string
   role: string
   description: string
+  animation: string
+  delay?: string
 }
 
-export default function ChefCard({ image, name, role, description }: ChefCardProps) {
+export default function ChefCard({ image, name, role, description, animation, delay }: ChefCardProps) {
   return (
-    <div className="flex flex-col items-center">
+    <div className="flex flex-col items-center" data-aos={animation} data-aos-delay={delay} data-aos-anchor=".chefs">
       <div>
         <Image src={image} alt="Chef 1" className="rounded-2xl object-cover" />
       </div>
