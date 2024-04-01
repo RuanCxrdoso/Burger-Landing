@@ -89,7 +89,7 @@ $ npm run dev
 
 <p align="center">
   <img
-    src="https://github.com/RuanCxrdoso/Burger-Landing/assets/86266893/38f6dd4d-a974-41f0-98fa-d10808971794"
+    src="burgerLanding2.gif"
     alt=""
     width="100%"
   />
