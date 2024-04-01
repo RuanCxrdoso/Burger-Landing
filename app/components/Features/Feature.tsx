@@ -5,7 +5,7 @@ import Image from 'next/image'
 
 export default function Feature() {
   return (
-    <div className="pt-[5rem] pb-[3rem]" id="about">
+    <div className="pt-[5rem] pb-[3rem] about" id="about">
       <h1 className="heading">
         Burgers made with
         <br />
@@ -14,7 +14,7 @@ export default function Feature() {
       </h1>
 
       <div className="w-[90%] md:w-[80%] mt-[3rem] md:mt-[5rem] mb-[3rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div>
+        <div data-aos="fade-left" data-aos-anchor=".about">
           <div className="p-6 hover:bg-white rounded-lg transition-all duration-300">
             <Image src={img1}  alt='' className='rounded-3xl' />
 
@@ -27,7 +27,7 @@ export default function Feature() {
 
         </div>
 
-        <div>
+        <div data-aos="zoom-in" data-aos-delay="250" data-aos-anchor=".about">
           <div className="p-6 hover:bg-white rounded-lg transition-all duration-300 md:translate-y-24">
             <Image src={img2}  alt='' className='rounded-3xl' />
 
@@ -40,7 +40,7 @@ export default function Feature() {
 
         </div>
 
-        <div>
+        <div data-aos="fade-right" data-aos-delay="500" data-aos-anchor=".about">
           <div className="p-6 hover:bg-white rounded-lg transition-all duration-300 md:-translate-y-8">
             <Image src={img3}  alt='' className='rounded-3xl' />
 

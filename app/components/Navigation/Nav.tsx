@@ -9,7 +9,7 @@ interface NavProps {
 
 export default function Nav({ openNav }: NavProps) {
   return (
-    <header className="h-[12vh] bg-[#fff]" id="home">
+    <header className="h-[12vh] bg-[#fff]">
       <div className="sm:w-[90%] w-[95%] mx-auto flex h-[100%] items-center justify-between">
         <div className="flex items-center space-x-2">
           <FaBurger className="w-[1.2rem] h-[1.2rem] sm:w-[1.4rem] sm:h-[1.4rem] text-orange-500" />
