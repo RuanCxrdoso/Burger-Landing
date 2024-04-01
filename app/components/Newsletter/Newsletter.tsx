@@ -1,8 +1,8 @@
 export default function Newsletter() {
   return (
-    <div className="pt-20 pb-20 bg">
+    <div className="pt-20 pb-20 mb-24 mt-24">
       <div className="text-center">
-        <h1 className="text-[28px] sm:text-[38px] md:text-[50px] text-black font-bold">
+        <h1 className="text-[28px] sm:text-[38px] md:text-[50px] uppercase text-black font-bold">
           Join for hot offers
         </h1>
 
