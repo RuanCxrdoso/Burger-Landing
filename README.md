@@ -41,7 +41,7 @@
 
 A landing page da **BurgerBit** é um projeto desenvolvido com `Next.js`, `React.js` e `TypeScript`, estilizado exclusivamente com `Tailwind CSS`. Coonta com seções de "Features", "About", "Popular Burgers", "Chefs", "Delivery" e "Newsletter", oferece uma experiência responsiva e dinâmica, destacando os produtos exclusivos da casa com imagens chamativas postas em um carrossel, com espaços para contar sobre o estabelecimento, apresentação dos chefs responsáveis pelos pedidos e uma seção para facilitar os pedidos de entrega.
 
-Vale ressaltar que este projeto foi desenvolvido no canal [WebDev Warriors](https://www.rocketseat.com.br/).
+Vale ressaltar que este projeto foi desenvolvido no canal [WebDev Warriors](https://www.youtube.com/@WebDevWarriors).
 
 ---
 
