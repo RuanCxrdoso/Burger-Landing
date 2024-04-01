@@ -47,7 +47,7 @@ Vale ressaltar que este projeto foi desenvolvido no canal [WebDev Warriors](http
 
 ## 🔗 Deploy
 
-O deploy da aplicação pode ser acessado através da seguinte URL: https://rcxrdoso-burger-landing-page.vercel.app/
+O deploy da aplicação pode ser acessado através da seguinte URL: https://rcardoso-burger-landing-page.vercel.app/
 
 ---
 
