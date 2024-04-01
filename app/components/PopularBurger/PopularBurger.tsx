@@ -30,7 +30,7 @@ const responsive = {
 
 export default function PopularBurger() {
   return (
-    <div className='pt-[3rem] pb-[3rem]' id="burgers">
+    <section className='pt-[3rem] pb-[3rem]' id="burgers">
       <h1 className="heading">
         Our Popular <span className="text-[#F2A900]">Burgers</span>
       </h1>
@@ -60,6 +60,6 @@ export default function PopularBurger() {
           <BurgerCard title="Bacon Rich" image="/images/b8.png" reviews="231" price="$ 10.49" description="Grilled beef with Himalayan salt, Texas bacon, lettuce and citrus sauce!" />
         </Carousel>
       </div>
-    </div>
+    </section>
   )
 }
