@@ -19,9 +19,6 @@ export default function MobileNav({ showNav, closeNav }: MobileNavProps) {
             <Link href="#home">Home</Link>
           </li>
           <li className="text-[35px] font-medium transition-all duration-300 text-white hover:text-yellow-400">
-            <Link href="/">Shop</Link>
-          </li>
-          <li className="text-[35px] font-medium transition-all duration-300 text-white hover:text-yellow-400">
             <Link href="#about">About</Link>
           </li>
           <li className="text-[35px] font-medium transition-all duration-300 text-white hover:text-yellow-400">
