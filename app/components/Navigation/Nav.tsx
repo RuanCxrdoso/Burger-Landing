@@ -9,7 +9,7 @@ interface NavProps {
 
 export default function Nav({ openNav }: NavProps) {
   return (
-    <header className="h-[12vh] bg-[#fff]">
+    <header className="h-[12vh] bg-[#fff]" id="home">
       <div className="sm:w-[90%] w-[95%] mx-auto flex h-[100%] items-center justify-between">
         <div className="flex items-center space-x-2">
           <FaBurger className="w-[1.2rem] h-[1.2rem] sm:w-[1.4rem] sm:h-[1.4rem] text-orange-500" />
@@ -21,19 +21,19 @@ export default function Nav({ openNav }: NavProps) {
 
         <ul className="hidden lg:flex items-center space-x-10">
           <li className="text-[20px] font-medium transition-all duration-300 hover:text-[#F2A900]">
-            <Link href="/">Home</Link>
+           <Link href="#home">Home</Link>
           </li>
           <li className="text-[20px] font-medium transition-all duration-300 hover:text-[#F2A900]">
-            <Link href="/">Shop</Link>
+            <Link href="#about">About</Link>
           </li>
           <li className="text-[20px] font-medium transition-all duration-300 hover:text-[#F2A900]">
-            <Link href="/">Menu</Link>
+            <Link href="#burgers">Burgers</Link>
           </li>
           <li className="text-[20px] font-medium transition-all duration-300 hover:text-[#F2A900]">
-            <Link href="/">Blog</Link>
+            <Link href="#delivery">Delivery</Link>
           </li>
           <li className="text-[20px] font-medium transition-all duration-300 hover:text-[#F2A900]">
-            <Link href="/">Contact</Link>
+            <Link href="#chefs">Chefs</Link>
           </li>
         </ul>
 

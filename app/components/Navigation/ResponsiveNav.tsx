@@ -16,7 +16,7 @@ export default function ResponsiveNav() {
   }
 
   return (
-    <div>
+    <div className="fixed top-0 w-[100vw] shadow-md z-[1000]">
       <Nav openNav={handleOpenNav} />
       <MobileNav showNav={showNav} closeNav={handleCloseNav} />
     </div>

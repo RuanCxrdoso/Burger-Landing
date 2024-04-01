@@ -6,7 +6,7 @@ import chef3 from '@/public/images/t3.jpg'
 
 export default function Chefs() {
   return (
-    <div className="pt-[5rem] pb-[3rem] w-[80%] mx-auto">
+    <div className="pt-[5rem] pb-[3rem] w-[80%] mx-auto" id="chefs">
       <h1 className="heading">
         Meet our experts <span className="text-[#F2A900]">Chefs</span>
       </h1>

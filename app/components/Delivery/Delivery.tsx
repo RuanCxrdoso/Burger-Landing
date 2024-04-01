@@ -6,7 +6,7 @@ import { BsDoorOpen } from "react-icons/bs"
 
 export default function Delivery() {
   return(
-    <div className="pt-[8rem] pb-[3rem]">
+    <div className="pt-[8rem] pb-[3rem]" id="delivery">
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 items-center gap-[3rem]">
         <div>
           <Image src={DeliveryImg} alt="Delivery" />

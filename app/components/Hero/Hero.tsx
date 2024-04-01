@@ -42,7 +42,7 @@ export default function Hero() {
       itemClass='item'
       showDots={true}
     >
-      <div className='w-[100%] h-[88vh] flex items-center justify-center flex-col bg-[#F2A900] md:clip_path'>
+      <div className='w-[100%] h-[88vh] flex items-center justify-center flex-col bg-[#F2A900] mt-[12vh] md:clip_path'>
         <div className='w-[80%] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-[0.1rem] md:gap-[2rem] mx-auto'>
           <Image src={burguer11} height={650} width={650} alt='' />
           <div>
@@ -57,7 +57,7 @@ export default function Hero() {
             </h1>
 
             <p className='mt-[0.5rem] mb-[0.7rem] md:mt-[1rem] md:mb-[2rem] text-amber-950 text-opacity-70 text-[18px] md:text-[20px]'>
-              Duas deliciosas carnes grelhadas no fogo como churrasco, cheddar fatiado, bacon e molho Stacker!
+              Two delicious fire-grilled meats like barbecue, sliced ​​cheddar, bacon and Stacker sauce!
             </p>
 
             <button 
@@ -75,8 +75,8 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className='w-[100%] h-[88vh] flex items-center justify-center flex-col bg-orange-500 md:clip_path'>
-        <div className='w-[80%] grid grid-cols-1 sm:grid-cols-2 justify-center items-center gap-[0.1rem] md:gap-[2rem] mx-auto'>
+      <div className='w-[100%] h-[88vh] flex items-center justify-center flex-col bg-orange-500 mt-[12vh] md:clip_path'>
+        <div className='w-[80%] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-[0.1rem] md:gap-[2rem] mx-auto'>
           <Image src={burguer10} height={700} width={700} alt='' />
           <div>
             <h1 className='text-[1.5rem] md:text-[50px] font-semibold text-green-900 '>
@@ -90,7 +90,7 @@ export default function Hero() {
             </h1>
 
             <p className='mt-[0.5rem] mb-[0.7rem] md:mt-[1rem] md:mb-[2rem] text-amber-950 text-opacity-90 text-[18px] md:text-[20px]'>
-              Pão com gergelim, três suculentos hambúrgueres de pura carne bovina, três fatias de queijo derretido, picles, ketchup e mostarda.
+              Pwith sesame seeds, three juicy pure beef burgers, three slices of melted cheese, pickles, ketchup and mustard.
             </p>
 
             <button
@@ -107,7 +107,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className='w-[100%] h-[88vh] flex items-center justify-center flex-col bg-blue-500 md:clip_path'>
+      <div className='w-[100%] h-[88vh] flex items-center justify-center flex-col bg-blue-500 mt-[12vh] md:clip_path'>
         <div className='w-[80%] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-[0.1rem] md:gap-[2rem] mx-auto'>
           <Image src={burguer2} alt='' />
           <div>
@@ -118,7 +118,7 @@ export default function Hero() {
             <h1 className='text-[40px] md:text-[90px] leading-[2.5rem] md:leading-[5rem] uppercase text-amber-950 font-bold'>Fat Double <br/> Cheddar</h1>
 
             <p className='mt-[0.5rem] mb-[0.7rem] md:mt-[1rem] md:mb-[2rem] text-amber-950 text-opacity-70 text-[18px] md:text-[20px]'>
-              Duas deliciosas carnes grelhadas no fogo como churrasco, cheddar inglês, bacon e molho barbecue!
+              Two delicious meats grilled over the fire like barbecue, English cheddar, bacon and barbecue sauce!
             </p>
 
             <button 
@@ -136,7 +136,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className='w-[100%] h-[88vh] flex items-center justify-center flex-col bg-red-400 md:clip_path'>
+      <div className='w-[100%] h-[88vh] flex items-center justify-center flex-col bg-red-400 mt-[12vh] md:clip_path'>
         <div className='w-[80%] grid grid-cols-1 md:grid-cols-2 justify-center items-center gap-[0.1rem] md:gap-[2rem] mx-auto'>
           <Image src={burguer1} height={650} width={650} alt='' />
           <div>
@@ -147,7 +147,7 @@ export default function Hero() {
             <h1 className='text-[40px] md:text-[90px] leading-[2.5rem] md:leading-[5rem] uppercase text-amber-950 font-bold'>Furious <br />Mexico Spicy</h1>
 
             <p className='mt-[0.5rem] mb-[0.7rem] md:mt-[1rem] md:mb-[2rem] text-amber-950 text-opacity-70 text-[18px] md:text-[20px]'>
-              Pão brioche, um farto hambúrguer de pura carne bovina, cheddar americano, picles, alface, maionese e a mais forte pimenta mexicana.
+              Brioche bun, a hearty burger made from pure beef, American cheddar, pickles, lettuce, mayonnaise and the strongest Mexican pepper.
             </p>
 
             <button 
